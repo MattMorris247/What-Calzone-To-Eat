@@ -8,10 +8,11 @@ public class CalzoneDriver {
 
     
 
+
     public static void main(String[] args) {  //MAIN 
      
 
-    Calzone c1= new Calzone("BBQ Chicken Zone   " , "All-time most Popular Calzone. Super Delish and an instant satisfier.") ; 
+    Calzone c1= new Calzone("BBQ Chicken Zone   " , "Breaded Chicken, Bacon,Cheddar, BBQ Sauce") ; 
     Calzone c2= new Calzone("BBQ Steak Zone     " , "Steak, Mozzarella,American, BBQ Sauce") ; 
     
     
@@ -19,11 +20,11 @@ public class CalzoneDriver {
     menu.add(c1) ; 
     menu.add(c2) ; 
     
-    print("TESTING TOSTTRING DOG") ; 
+    
 
     
 
-    System.out.println(menu.toString())  ; 
+    c1.printMenu();  
 
 
 
